@@ -1,0 +1,18 @@
+<head>
+    <meta charset="UTF-8">
+    <title>{{appTitle}}</title>
+</head>
+<body>
+<div class="row">
+  <div class="large-12 medium-12 small-12">Users</div>
+<div  class="large-6 medium-6 small-6 columns" *ngFor="let el of users.data">
+  <div>
+  Name: {{el.name}} <br />
+  Profession: {{el.profession}} <br />
+  </div>
+</div>
+
+<products>Loading Products</products>
+</div>
+</body>
+
